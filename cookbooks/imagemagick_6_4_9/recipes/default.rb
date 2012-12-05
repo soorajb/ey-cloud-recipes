@@ -2,12 +2,12 @@
 # Cookbook Name:: imagemagick_6_4_9
 # Recipe:: default
 #
+enable_package "media-gfx/imagemagick" do
+ version "6.4.9.2"
+end
 package "media-gfx/imagemagick" do
  version "6.4.9.2"
  action :upgrade
-end
-enable_package "media-gfx/imagemagick" do
- version "6.4.9.2"
 end
 ey_cloud_report "imagemagick_6_4_9" do 
  message "imagemagick 6.4.9" 
