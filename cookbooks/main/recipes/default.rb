@@ -132,4 +132,4 @@ require_recipe "mongodb"
   # postgresql9_pg_stat_statements "todo" - Not done
   
 # end
-include_recipe "imagemagick"
+require_recipe "imagemagick_6_4_9"
