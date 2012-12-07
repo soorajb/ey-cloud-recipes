@@ -1,3 +1,5 @@
+** Add custom recipe to upgrade ImageMagick version to 6.4.9 in Engineyard
+
 ey-cloud-recipes
 ===============
 This is a repository of some basic recipes for EY-Cloud using chef to deploy, setup, and configure common tools for Rails applications.
